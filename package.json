@@ -1,0 +1,38 @@
+{
+	"name": "svelte-5-runes",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.3",
+		"@sveltejs/vite-plugin-svelte": "^3.0.1",
+		"@types/cookie": "^0.5.1",
+		"@typescript-eslint/eslint-plugin": "^6.15.0",
+		"@typescript-eslint/parser": "^6.15.0",
+		"autoprefixer": "^10.4.7",
+		"classnames": "^2.3.2",
+		"postcss": "^8.4.14",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^5.0.0-next.244",
+		"svelte-check": "^2.7.1",
+		"svelte-preprocess": "^4.10.7",
+		"tailwind-merge": "^2.2.0",
+		"tailwindcss": "^3.1.5",
+		"typescript": "^5.3.3",
+		"vite": "^5.0.10"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0"
+	}
+}
